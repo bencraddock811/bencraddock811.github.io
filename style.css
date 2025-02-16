@@ -1,10 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(99, 138, 126);
 }
 
 header {
-    background-color: beige;
+    background: linear-gradient(to bottom, rgb(232, 182, 127) 70%, rgba(0, 0, 0, 0));
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 nav {
@@ -13,9 +21,11 @@ nav {
     align-items: center;
 }
 
-nav .left {
-    font-family: 'Courier New', Courier, monospace;
+nav .left h1 {
+    font-family: 'Eina 01';
+    font-weight: 400;
     margin: 10px;
+    color: rgb(255, 255, 255);
 }
 
 nav .right {
@@ -25,26 +35,47 @@ nav .right {
 nav li {
     display: inline;
     padding: 5px;
-    margin: aut;
-    border: solid lightslategray;
-    color: darkgray;
+    margin: auto;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Eina 01';
 
 }
 
 nav li:hover {
-    background-color: gray;
+    background-color: rgb(137, 76, 74);
 }
 
- 
+main {
+    overflow: scroll;
+    position: relative;
+    top: 50px;
+}
 
-main h1 {
+#about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+#about h1 {
     font-family: 'Shadows Into Light';
     font-weight: 400px;
     font-size: 3rem;
     letter-spacing: 3px;
+    color: rgb(232, 182, 127);
 }
 
+#about img {
+    max-height: 400px;
+    width: auto;
+    contain: content;
+    clip-path: circle( 50% at 50% 50%);
+    border: solid 5px rgb(232, 182, 127);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
 
 
