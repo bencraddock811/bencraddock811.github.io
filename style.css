@@ -1,4 +1,50 @@
-h1 {
-    color: blue;
-    background-color: aqua;
+body {
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .left {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+nav .right {
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+    margin: aut;
+    border: solid lightslategray;
+    color: darkgray;
+
+}
+
+nav li:hover {
+    background-color: gray;
+}
+
+ 
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Shadows Into Light';
+    font-weight: 400px;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+
+
