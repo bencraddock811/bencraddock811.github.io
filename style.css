@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, rgb(232, 182, 127) 70%, rgba(0, 0, 0, 0));
+    background-color: rgba(232, 182, 127, 0.95);
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -22,8 +22,9 @@ nav {
 }
 
 nav .left h1 {
-    font-family: 'Eina 01';
+    font-family: 'Shadows Into Light';
     font-weight: 400;
+    letter-spacing: 3px;
     margin: 10px;
     color: rgb(255, 255, 255);
 }
@@ -38,7 +39,8 @@ nav li {
     margin: auto;
     border-radius: 5px;
     color: rgb(255, 255, 255);
-    font-family: 'Eina 01';
+    font-family: 'Shadows Into Light';
+    letter-spacing: 2px;
 }
 
 nav li a {
@@ -73,6 +75,7 @@ main {
     font-size: 3rem;
     letter-spacing: 3px;
     color: rgb(232, 182, 127);
+    margin-bottom: 0;
 }
 
 #about img {
@@ -90,6 +93,6 @@ main {
     font-family: 'Eina 01';
     font-size: 1.5rem;
     color: rgb(232, 182, 127);
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
