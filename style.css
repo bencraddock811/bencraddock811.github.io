@@ -39,7 +39,14 @@ nav li {
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-family: 'Eina 01';
+}
 
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: rgb(255, 255, 255);
 }
 
 nav li:hover {
@@ -57,6 +64,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: 50px;
 }
 
 #about h1 {
@@ -68,7 +76,7 @@ main {
 }
 
 #about img {
-    max-height: 400px;
+    max-height: 300px;
     width: auto;
     contain: content;
     clip-path: circle( 50% at 50% 50%);
@@ -78,4 +86,10 @@ main {
     justify-content: center;
 }
 
-
+#about p {
+    font-family: 'Eina 01';
+    font-size: 1.5rem;
+    color: rgb(232, 182, 127);
+    width: 50%;
+    text-align: center;
+}
